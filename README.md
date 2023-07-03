@@ -1,5 +1,5 @@
 # e-inventaris
-Website Sederhana Inventaris Barang dengan fitur-fitur:
+Website Inventaris Barang Sederhana dengan fitur-fitur:
 - Pencatatan detail barang.
 - Pencarian dan filterisasi barang.
 - Pembaruan stok secara real-time.
