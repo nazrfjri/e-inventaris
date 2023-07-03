@@ -1,2 +1,2 @@
 # e-inventaris
-Project UAS PBW Kelompok 3
+Project UAS PBW Kelompok 6
