@@ -103,8 +103,8 @@ $row = mysqli_fetch_assoc($result);
                                 <td><?php echo $row['nama']; ?></td>
                             </tr>
                             <tr>
-                                <th>Username:</th>
-                                <td><?php echo $row['username']; ?></td>
+                                <th>Email:</th>
+                                <td><?php echo $row['email']; ?></td>
                             </tr>
                         </tbody>
                     </table>
