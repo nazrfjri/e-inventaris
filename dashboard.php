@@ -5,13 +5,6 @@ $limit = 4;
 $page = isset($_GET['page']) ? $_GET['page'] : 1;
 $start = ($page - 1) * $limit;
 
-if (isset($_GET['id_barang'])) {
-    $id_barang = $_GET['id_barang'];
-    mysqli_query($koneksi, "DELETE FROM barang WHERE id_barang = '$id_barang'") or die(mysqli_error($koneksi));
-
-    header("location:dashboard.php");
-}
-
 if (isset($_POST['bcari'])) {
     $keyword = $_POST['tcari'];
     $show = mysqli_query($koneksi, "SELECT * FROM barang WHERE kode LIKE '%$keyword%' OR nama LIKE '%$keyword%' OR asal LIKE '%$keyword%' ORDER BY id_barang ASC");
